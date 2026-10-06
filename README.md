@@ -1112,6 +1112,7 @@ integration leaves out into HubSpot. Each one stands alone.
 | **hubspot-order-form-stripe-checkout-link-integration** (this repo) | A HubSpot order form that hands buyers to a Stripe Payment Link, and writes the UTMs back onto the payment record |
 | [stripe-webhooks-to-hubspot-custom-events](https://github.com/carljibrilsulaimanii/stripe-webhooks-to-hubspot-custom-events) | Any Stripe event into a HubSpot workflow through the "Webhook event is received" trigger, no middleware |
 | [hubspot-capi-server-side-lead-and-purchase-conversions-meta-google](https://github.com/carljibrilsulaimanii/hubspot-capi-server-side-lead-and-purchase-conversions-meta-google) | Stripe purchases sent server-side from HubSpot workflows to Meta and Google |
-| **$0 Stripe Checkout sync** (coming) | Free and 100%-off checkouts, which create no payment and never reach HubSpot |
+| [hubspot-stripe-zero-dollar-checkout-sync](https://github.com/carljibrilsulaimanii/hubspot-stripe-zero-dollar-checkout-sync) | Free and 100%-off Stripe Checkout orders, which create no payment, written into a HubSpot custom object, plus a backfill |
 | **Product names on payment records** (coming) | Which product each Stripe payment was for, and routing buyers by product |
 | **Stripe test mode mirror** (coming) | Test payments in the same HubSpot object as live ones, so workflows can be tested without real charges |
+

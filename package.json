@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "A two-step HubSpot order form that hands buyers to a Stripe Payment Link with their campaign UTMs, plus the HubSpot workflow action that writes those UTMs onto the payment record. Zero dependencies.",
+  "description": "A two-step HubSpot order form that hands buyers to a Stripe Payment Link with their email and campaign UTMs attached. Zero dependencies.",
   "engines": {
     "node": ">=20"
   },
   "scripts": {
-    "test": "node --test test/",
-    "audit-links": "node scripts/audit-payment-links.mjs",
-    "create-properties": "node scripts/create-properties.mjs",
-    "verify-properties": "node scripts/verify-properties.mjs"
+    "test": "node --test test/"
   }
 }

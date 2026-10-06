@@ -4,7 +4,7 @@
   Author:  Jibril Sulaiman
   Created: 2026-09-28 (from a production build first shipped 2026-09-04)
   Deploy:  HubSpot Design Manager > your "Order Form (Stripe)" module > module.js.
-           Set COOKIE_NAME to match site-header/utm-capture.html.
+           Set COOKIE_NAME to match the site header script (hubspot-stripe-utm-attribution repo).
 
   What it does:
     Shows a HubSpot form as step 1. When the form submits, it sends the buyer
